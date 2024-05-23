@@ -1,7 +1,7 @@
 # Полный код с учетом установки иконок
 0. Установить Node.js на ПК
 1. Установка Create React App и Material-UI
-```
+```bash
 npx create-react-app todo-app
 cd todo-app
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
@@ -123,6 +123,7 @@ function App() {
 export default App;
 ```
 5. Запуск приложения
-```
+```bash
 npm start
+serve -s build
 ```
